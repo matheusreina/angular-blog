@@ -1,0 +1,19 @@
+.container__menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.container__menu-bar > a {
+  font-size: 18px;
+}
+
+.container__menu-bar > p {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 35px;
+}

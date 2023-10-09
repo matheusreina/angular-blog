@@ -1,17 +1,12 @@
 <div class="container__small-card">
-  <a href="#">
+  <a [routerLink]="['content', Id]">
     <div class="small-card__picture">
-      <img
-        src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg"
-        alt=""
-        srcset=""
-      />
+      <img src="{{ photoCover }}" alt="" srcset="" />
     </div>
 
     <div class="small-card__title">
       <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad laudantium
-        dolores praesentium nisi in minima?
+        {{ cardTitle }}
       </h1>
     </div>
   </a>
